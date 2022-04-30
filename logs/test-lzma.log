@@ -1,0 +1,137 @@
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkLzma.test
+# Parameters: (level = 1)
+
+# Run progress: 0.00% complete, ETA 00:04:00
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+6459.440 ms/op
+# Warmup Iteration   2: 6417.740 ms/op
+# Warmup Iteration   3: 6418.791 ms/op
+Iteration   1: 6404.750 ms/op
+Iteration   2: 6417.217 ms/op
+Iteration   3: Compressed 258126022 -> 49948535 bytes, (80.649553%)
+6409.318 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkLzma.test":
+  6410.428 ±(99.9%) 115.065 ms/op [Average]
+  (min, avg, max) = (6404.750, 6410.428, 6417.217), stdev = 6.307
+  CI (99.9%): [6295.364, 6525.493] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkLzma.test
+# Parameters: (level = 3)
+
+# Run progress: 25.00% complete, ETA 00:03:54
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+8212.874 ms/op
+# Warmup Iteration   2: 8139.648 ms/op
+# Warmup Iteration   3: 8146.057 ms/op
+Iteration   1: 8138.008 ms/op
+Iteration   2: 8141.865 ms/op
+Iteration   3: Compressed 258126022 -> 49109363 bytes, (80.974655%)
+8153.987 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkLzma.test":
+  8144.620 ±(99.9%) 152.119 ms/op [Average]
+  (min, avg, max) = (8138.008, 8144.620, 8153.987), stdev = 8.338
+  CI (99.9%): [7992.501, 8296.739] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkLzma.test
+# Parameters: (level = 6)
+
+# Run progress: 50.00% complete, ETA 00:02:56
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+44152.628 ms/op
+# Warmup Iteration   2: 43904.037 ms/op
+# Warmup Iteration   3: 43871.809 ms/op
+Iteration   1: 43820.540 ms/op
+Iteration   2: 43807.610 ms/op
+Iteration   3: Compressed 258126022 -> 46951810 bytes, (81.810509%)
+43779.578 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkLzma.test":
+  43802.576 ±(99.9%) 382.025 ms/op [Average]
+  (min, avg, max) = (43779.578, 43802.576, 43820.540), stdev = 20.940
+  CI (99.9%): [43420.551, 44184.601] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkLzma.test
+# Parameters: (level = 9)
+
+# Run progress: 75.00% complete, ETA 00:02:27
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+49899.815 ms/op
+# Warmup Iteration   2: 49704.013 ms/op
+# Warmup Iteration   3: 49721.667 ms/op
+Iteration   1: 49827.734 ms/op
+Iteration   2: 49850.506 ms/op
+Iteration   3: Compressed 258126022 -> 46951810 bytes, (81.810509%)
+49787.697 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkLzma.test":
+  49821.979 ±(99.9%) 580.110 ms/op [Average]
+  (min, avg, max) = (49787.697, 49821.979, 49850.506), stdev = 31.798
+  CI (99.9%): [49241.869, 50402.089] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:12:21
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark           (level)  Mode  Cnt      Score     Error  Units
+BenchmarkLzma.test        1  avgt    3   6410.428 ± 115.065  ms/op
+BenchmarkLzma.test        3  avgt    3   8144.620 ± 152.119  ms/op
+BenchmarkLzma.test        6  avgt    3  43802.576 ± 382.025  ms/op
+BenchmarkLzma.test        9  avgt    3  49821.979 ± 580.110  ms/op

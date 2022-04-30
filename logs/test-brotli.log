@@ -1,0 +1,137 @@
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkBrotli.test
+# Parameters: (level = 1, window = 24)
+
+# Run progress: 0.00% complete, ETA 00:04:00
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+603.641 ms/op
+# Warmup Iteration   2: 594.028 ms/op
+# Warmup Iteration   3: 593.070 ms/op
+Iteration   1: 593.196 ms/op
+Iteration   2: 593.167 ms/op
+Iteration   3: Compressed 258126022 -> 58672319 bytes, (77.269892%)
+592.957 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkBrotli.test":
+  593.107 ±(99.9%) 2.376 ms/op [Average]
+  (min, avg, max) = (592.957, 593.107, 593.196), stdev = 0.130
+  CI (99.9%): [590.731, 595.483] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkBrotli.test
+# Parameters: (level = 3, window = 24)
+
+# Run progress: 25.00% complete, ETA 00:03:05
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+1366.435 ms/op
+# Warmup Iteration   2: 1347.394 ms/op
+# Warmup Iteration   3: 1346.097 ms/op
+Iteration   1: 1346.224 ms/op
+Iteration   2: 1345.884 ms/op
+Iteration   3: Compressed 258126022 -> 53917438 bytes, (79.111969%)
+1343.477 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkBrotli.test":
+  1345.195 ±(99.9%) 27.327 ms/op [Average]
+  (min, avg, max) = (1343.477, 1345.195, 1346.224), stdev = 1.498
+  CI (99.9%): [1317.868, 1372.522] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkBrotli.test
+# Parameters: (level = 6, window = 24)
+
+# Run progress: 50.00% complete, ETA 00:02:07
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+2854.300 ms/op
+# Warmup Iteration   2: 2810.137 ms/op
+# Warmup Iteration   3: 2809.482 ms/op
+Iteration   1: 2813.920 ms/op
+Iteration   2: 2811.181 ms/op
+Iteration   3: Compressed 258126022 -> 48696441 bytes, (81.134624%)
+2812.131 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkBrotli.test":
+  2812.411 ±(99.9%) 25.372 ms/op [Average]
+  (min, avg, max) = (2811.181, 2812.411, 2813.920), stdev = 1.391
+  CI (99.9%): [2787.039, 2837.783] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-8257145
+# VM invoker: /opt/java-11/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.salesforce.hbase.BenchmarkBrotli.test
+# Parameters: (level = 10, window = 24)
+
+# Run progress: 75.00% complete, ETA 00:01:05
+# Fork: 1 of 1
+# Warmup Iteration   1: Prepared 2680 blocks (258126022 bytes total) from blockdata.zip
+74713.451 ms/op
+# Warmup Iteration   2: 74613.159 ms/op
+# Warmup Iteration   3: 74596.281 ms/op
+Iteration   1: 74629.343 ms/op
+Iteration   2: 74613.367 ms/op
+Iteration   3: Compressed 258126022 -> 44970710 bytes, (82.578001%)
+74605.098 ms/op
+
+
+Result "com.salesforce.hbase.BenchmarkBrotli.test":
+  74615.936 ±(99.9%) 224.854 ms/op [Average]
+  (min, avg, max) = (74605.098, 74615.936, 74629.343), stdev = 12.325
+  CI (99.9%): [74391.082, 74840.790] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:44
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark             (level)  (window)  Mode  Cnt      Score     Error  Units
+BenchmarkBrotli.test        1        24  avgt    3    593.107 ±   2.376  ms/op
+BenchmarkBrotli.test        3        24  avgt    3   1345.195 ±  27.327  ms/op
+BenchmarkBrotli.test        6        24  avgt    3   2812.411 ±  25.372  ms/op
+BenchmarkBrotli.test       10        24  avgt    3  74615.936 ± 224.854  ms/op
